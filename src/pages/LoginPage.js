@@ -91,7 +91,7 @@ const LoginPage = ({ logo }) => {
                 <Grid item container direction="row" alignItems="center">
                   <img className={classes.logo} src={logo} />
                   <Box pl={2} fontWeight="fontWeightMedium" fontSize="h4.fontSize">
-                    {formatMessage("appName")}
+                    {"CogX"}
                   </Box>
                 </Grid>
                 {showMPassProvider ? (
